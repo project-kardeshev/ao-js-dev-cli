@@ -1,0 +1,29 @@
+{
+  "name": "@permaweb/ao-cli-node",
+  "version": "0.0.1",
+  "description": "node impls for the CLI",
+  "sideEffects": false,
+  "type": "module",
+  "main": "src/main.js",
+  "bin": {
+    "ao-bundler-balance": "src/bin/bundler-balance.js",
+    "ao-bundler-fund": "src/bin/bundler-fund.js",
+    "ao-module": "src/bin/ao-module.js",
+    "ao-spawn": "src/bin/ao-spawn.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@irys/sdk": "^0.1.6",
+    "@permaweb/aoconnect": "0.0.42",
+    "@permaweb/wasm-metering": "^0.2.2",
+    "arweave": "^1.14.4",
+    "mime-types": "^2.1.35",
+    "url-join": "^5.0.0",
+    "warp-arbundles": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
