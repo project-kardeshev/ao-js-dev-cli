@@ -6,4 +6,4 @@ functions:
       - string
 
 entry_file: loader.js
-output_file: process.js
+output_file: process-out.js
