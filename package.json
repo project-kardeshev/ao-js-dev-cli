@@ -1,0 +1,14 @@
+{
+  "name": "ao-js-dev-cli",
+  "version": "1.0.0",
+  "description": "The `ao` cli enables developers to create, run, build, and publish SmartWeaveContracts written in [Lua](https://www.lua.org/).",
+  "main": "process-out.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@permaweb/ao-loader": "^0.0.35"
+  }
+}

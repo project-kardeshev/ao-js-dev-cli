@@ -95,5 +95,6 @@
       "0.0.52": "iVthglhSN7G9LuJSU_h5Wy_lcEa0RE4VQmrtoBMj7Bw",
       "0.0.54": "BVhXa-OCcQV6xuhsoS6207uHkXcRz4UmR5xvQct1GXI"
     }
-  }
+  },
+  "imports": { "@permaweb/ao-loader": "npm:@permaweb/ao-loader@^0.0.35" }
 }
